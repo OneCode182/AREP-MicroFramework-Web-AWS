@@ -8,6 +8,8 @@
 
 > Servidor HTTP en Java con microframework IoC basado en reflexión y anotaciones para exponer servicios REST con `@RestController`, `@GetMapping` y `@RequestParam`.
 
+https://github.com/user-attachments/assets/811401e1-f186-458a-b70f-d3a55349907d
+
 ---
 
 ## Tabla de contenido
