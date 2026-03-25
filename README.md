@@ -3,6 +3,8 @@
 ![Java](https://img.shields.io/badge/Java-17+-007396?logo=java&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-3.x-C71A36?logo=apache-maven&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Project-F05032?logo=git&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white)
+![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?logo=amazon-ec2&logoColor=white)
 
 > Servidor HTTP en Java con microframework IoC basado en reflexión y anotaciones para exponer servicios REST con `@RestController`, `@GetMapping` y `@RequestParam`.
 
@@ -22,7 +24,8 @@
   - [Evidencia de funcionamiento](#evidencia-de-funcionamiento)
   - [Evidencia de despliegue en AWS](#evidencia-de-despliegue-en-aws)
   - [Cumplimiento de rúbrica](#cumplimiento-de-rúbrica)
-  - [Autor](#autor)
+  - [Author](#author)
+  - [License](#license)
 
 ---
 
@@ -249,19 +252,19 @@ La rúbrica exige evidencia de despliegue correcto en AWS. Dejo la sección para
 
 1) Instancia EC2 operativa:
 
-![Evidencia EC2](./resources/img/placeholder-aws-ec2.png)
+![Evidencia EC2](./resources/img/aws-ec2-panel.png)
 
 2) Servidor ejecutándose en instancia remota:
 
-![Evidencia proceso servidor en EC2](./resources/img/placeholder-aws-server-running.png)
+![Evidencia proceso servidor en EC2](./resources/img/aws-ec2-server.png)
 
 3) Consumo del endpoint desde cliente externo:
 
-![Evidencia request remota](./resources/img/placeholder-aws-endpoint-response.png)
+![Evidencia request remota](./resources/img/aws-ec2-endpoint-client.png)
 
 4) Evidencia de static file en AWS:
 
-![Evidencia static file en AWS](./resources/img/placeholder-aws-static-file.png)
+![Evidencia static file en AWS](./resources/img/aws-ec2-img-sample.png)
 
 ---
 
@@ -269,15 +272,15 @@ La rúbrica exige evidencia de despliegue correcto en AWS. Dejo la sección para
 
 | Criterio | Estado |
 | :--- | :---: |
-| `@RestController` implementado | Cumplido |
-| Exploración de classpath y carga automática | Cumplido |
-| `@GetMapping` implementado | Cumplido |
-| `@RequestParam` implementado | Cumplido |
-| Requisitos funcionales adicionales | Cumplido |
-| Atributos de calidad y diseño razonable | Cumplido |
-| README con arquitectura, ejecución y pruebas | Cumplido |
-| Pruebas automatizadas | Cumplido |
-| Repositorio clonable y ejecutable | Cumplido |
+| `@RestController` implementado | [x] |
+| Exploración de classpath y carga automática | [x] |
+| `@GetMapping` implementado | [x] |
+| `@RequestParam` implementado | [x] |
+| Requisitos funcionales adicionales | [x] |
+| Atributos de calidad y diseño razonable | [x] |
+| README con arquitectura, ejecución y pruebas | [x] |
+| Pruebas automatizadas | [x] |
+| Repositorio clonable y ejecutable | [x] |
 
 Notas de entregables:
 
@@ -287,8 +290,12 @@ Notas de entregables:
 
 ---
 
-## Autor
+## Author
 
-Sergio Andrey Silva Rodriguez  
-Systems Engineering Student  
+**Sergio Andrey Silva Rodriguez**  
+*Systems Engineering Student*  
 Escuela Colombiana de Ingeniería Julio Garavito
+
+## License
+
+This project is for educational purposes as part of the AREP course at Escuela Colombiana de Ingeniería Julio Garavito.
