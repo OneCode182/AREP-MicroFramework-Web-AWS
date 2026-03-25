@@ -10,16 +10,19 @@
 
 ## Tabla de contenido
 
-- [Resumen](#resumen)
-- [Arquitectura y diseño](#arquitectura-y-diseño)
-- [Estructura del proyecto](#estructura-del-proyecto)
-- [Requisitos](#requisitos)
-- [Instalación y ejecución](#instalación-y-ejecución)
-- [Uso del microframework](#uso-del-microframework)
-- [Pruebas](#pruebas)
-- [Evidencia de funcionamiento](#evidencia-de-funcionamiento)
-- [Evidencia de despliegue en AWS](#evidencia-de-despliegue-en-aws)
-- [Cumplimiento de rúbrica](#cumplimiento-de-rúbrica)
+- [AREP-IOC-Reflection-Server](#arep-ioc-reflection-server)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [Resumen](#resumen)
+  - [Arquitectura y diseño](#arquitectura-y-diseño)
+  - [Estructura del proyecto](#estructura-del-proyecto)
+  - [Requisitos](#requisitos)
+  - [Instalación y ejecución](#instalación-y-ejecución)
+  - [Uso del microframework](#uso-del-microframework)
+  - [Pruebas](#pruebas)
+  - [Evidencia de funcionamiento](#evidencia-de-funcionamiento)
+  - [Evidencia de despliegue en AWS](#evidencia-de-despliegue-en-aws)
+  - [Cumplimiento de rúbrica](#cumplimiento-de-rúbrica)
+  - [Autor](#autor)
 
 ---
 
@@ -219,23 +222,24 @@ Sección preparada para que insertes capturas clave de alta calidad.
 
 1) Evidencia de pruebas automatizadas (`mvn clean test`):
 
-![Evidencia pruebas automatizadas](./resources/img/placeholder-tests.png)
+![Evidencia de pruebas automatizadas 1](./resources/img/cmd-mvn-1.png)
+![Evidencia de pruebas automatizadas 2](./resources/img/cmd-mvn-2.png)
 
 2) Endpoint REST con parámetro (`/greeting?name=Pedro`):
 
-![Evidencia endpoint greeting con query param](./resources/img/placeholder-greeting-param.png)
+![Evidencia endpoint greeting con query param](./resources/img/cmd-hola-pedro.png)
 
 3) Endpoint REST con valor por defecto (`/greeting`):
 
-![Evidencia endpoint greeting default value](./resources/img/placeholder-greeting-default.png)
+![Evidencia endpoint greeting default value](./resources/img/cmd-hello-default.png)
 
 4) Recurso estático HTML (`/index.html`):
 
-![Evidencia static index](./resources/img/placeholder-static-index.png)
+![Evidencia static index](./resources/img/view-html.png)
 
 5) Recurso estático PNG (`/images/sample.png`):
 
-![Evidencia static png](./resources/img/placeholder-static-png.png)
+![Evidencia static png](./resources/img/view-sample-img.png)
 
 ---
 
